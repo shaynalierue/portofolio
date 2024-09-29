@@ -203,7 +203,9 @@ function validateEmail() {
     return false;
   }
 
-  if (!email.match(/^[A-Za-z\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)) {
+  var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+  if (!email.match(emailPattern)) {
     emailError.innerHTML = "Email is invalid";
     return false;
   }
