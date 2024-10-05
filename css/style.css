@@ -968,5 +968,5 @@ body.active-popup .popup {
 }
 
 .projects {
-  color: white !important;
+  color: var(--text-black-900);
 }
