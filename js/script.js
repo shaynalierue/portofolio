@@ -4,6 +4,7 @@ var typed = new Typed(".typing", {
   strings: [
     "",
     "Web Developer",
+    "Back End Developer",
     "UI/UX Designer",
     "Undergraduate Student @BINUS",
   ],
@@ -16,6 +17,7 @@ var typeds = new Typed(".typings", {
   strings: [
     "",
     "Web Developer",
+    "Back End Developer",
     "UI/UX Designer",
     "Undergraduate Student @BINUS",
   ],
